@@ -1,0 +1,40 @@
+.parent {
+    height: 100%;
+    position: relative;
+}
+
+.slides {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* border-radius: 10px; */
+}
+.arrows{
+    padding: 5px 10px;
+    background-color: #121212;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrowschild{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.circleParent{
+    display: flex;
+    align-items: center;
+}
+.circle{
+    margin: 0 0;
+}
+.header{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    background-color: #121212;
+    margin-bottom: 0;
+}
